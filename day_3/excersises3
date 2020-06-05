@@ -1,0 +1,10 @@
+coin_count = 0
+print("You have 0 Coins?")
+while True:
+    count_input = input("Do you want a coin? y or n\n")
+    if count_input == "y":
+        coin_count+=1
+    elif count_input == "n":
+        break
+    else:
+        print("Not a valid input, ")
